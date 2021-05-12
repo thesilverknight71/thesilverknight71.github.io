@@ -215,13 +215,13 @@ a.dotted-link:hover {
 }
 
 .latest .item .title {
-  font-size: 18px;
+  font-size: 30px !important;
   margin-top: 0;
 }
 
 .latest .item .title .label {
   margin-left: 5px;
-  font-size: 12px;
+  font-size: 30px !important;
 }
 
 .latest .item .title a {
@@ -664,6 +664,21 @@ a.dotted-link:hover {
   .project-image {
     margin-bottom: 15px;
   }
+}
+
+.Title {
+  font-size: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
 }
 
 @media (min-width: 1400px) {
